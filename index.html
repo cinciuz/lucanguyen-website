@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Nguyen | Policy Implementation & Regulatory Technology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --accent: #CC0000;
+            --text: #1a1a1a;
+            --text-light: #555;
+            --bg: #fff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            padding: 80px 0 60px;
+            border-bottom: 2px solid var(--accent);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        header h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--text-light);
+            margin-bottom: 4px;
+        }
+
+        header .affiliation {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        section {
+            padding: 48px 0;
+        }
+
+        section h3 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        section p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .divider {
+            height: 1px;
+            background: #e5e5e5;
+            position: relative;
+        }
+
+        .divider::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 1px;
+            background: var(--accent);
+        }
+
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid #e5e5e5;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        footer p::before {
+            content: '';
+            display: inline-block;
+            width: 12px;
+            height: 2px;
+            background: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 60px 0 40px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header h2 {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 36px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Luca Nguyen</h1>
+            <h2>Policy Implementation & Regulatory Technology</h2>
+            <p class="affiliation">Islands and Small States Institute, University of Malta</p>
+        </header>
+
+        <section>
+            <h3>About</h3>
+            <p>I work at the intersection of policy implementation and technology, focusing on regulatory requirements in resource-constrained environments.</p>
+            <p>My practice combines regulatory technology platform development, policy research on implementation effectiveness, and consulting on sustainability compliance.</p>
+            <p>Current projects include regulatory compliance platforms for environmental policy and research on small jurisdiction adaptation of sustainability frameworks.</p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <h3>Contact</h3>
+            <div class="contact-links">
+                <a href="mailto:luca@lucanguyen.com">luca@lucanguyen.com</a>
+                <a href="https://www.linkedin.com/in/lucanguyen" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Luca Nguyen</p>
+        </footer>
+    </div>
+</body>
+</html>
