@@ -100,6 +100,67 @@
             gap: 8px;
         }
 
+        .media-item {
+            margin-bottom: 28px;
+        }
+
+        .media-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .media-source {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .media-title {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .media-title a {
+            color: var(--text);
+        }
+
+        .media-title a:hover {
+            color: var(--accent);
+        }
+
+        .media-desc {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 6px;
+        }
+
+        .media-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .media-links a {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .media-links a:hover {
+            color: var(--accent);
+        }
+
+        .media-upcoming {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
         .divider {
             height: 1px;
             background: #e5e5e5;
@@ -178,6 +239,34 @@
             <h3>Recent Activity</h3>
             <p>Selected for the German Federal Government Visitors Programme on Sustainable Tourism (March 2026).</p>
             <p>Current research focus: SME implementation mechanisms for sustainability compliance, business association support models, and multi-stakeholder coordination in small jurisdictions.</p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section>
+            <h3>Featured In</h3>
+
+            <div class="media-item">
+                <div class="media-source">Deutschland.de &mdash; German Federal Government International Media &middot; 6M monthly readers</div>
+                <div class="media-title">Sustainable Tourism: Strategies to Counter Mass Tourism</div>
+                <div class="media-desc">On the COMPLY project, regulatory complexity in small island states, and digital tools as a path through what the article calls "a real jungle of regulations." Cited alongside Germany's Federal Ministry for Economic Affairs work on overregulation across sectoral national strategies.</div>
+                <div class="media-links">
+                    <a href="https://www.deutschland.de/en/topic/life/sustainable-tourism-strategies-to-counter-mass-tourism" target="_blank" rel="noopener">Read in English</a>
+                    <a href="https://www.deutschland.de/de/topic/leben/nachhaltiger-tourismus-strategien-gegen-massentourismus" target="_blank" rel="noopener">Lesen auf Deutsch</a>
+                </div>
+            </div>
+
+            <div class="media-item">
+                <div class="media-source">Greening the Islands</div>
+                <div class="media-title"><a href="https://greeningtheislands.org/comply-rethinking-regulations-through-digital-tools-in-small-island-states/" target="_blank" rel="noopener">COMPLY: Rethinking Regulations Through Digital Tools in Small Island States</a></div>
+                <div class="media-desc">Overview of the COMPLY platform and its approach to reducing compliance burden for businesses operating under complex, overlapping regulatory frameworks in island jurisdictions.</div>
+            </div>
+
+            <div class="media-item">
+                <div class="media-source">Podcast &mdash; Coming Soon</div>
+                <div class="media-title">Managing People & Using AI</div>
+                <p class="media-upcoming">Two episodes in production &mdash; on building and leading teams, and on practical AI adoption. To be released on YouTube.</p>
+            </div>
         </section>
 
         <div class="divider"></div>
